@@ -4,7 +4,8 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 module.exports = {
   mode: 'development',
   entry: {
-    app: path.resolve(__dirname, './js/main.js')
+    app: path.resolve(__dirname, './js/main.js'),
+    animate: path.resolve(__dirname, './js/animatevillage.js')
   },
   devtool: 'inline-source-map',
   devServer: {
